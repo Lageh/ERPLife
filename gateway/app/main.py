@@ -1,5 +1,5 @@
 from fastapi import FastAPI, HTTPException
-import httpx
+import httpx # type: ignore
 import os
 
 app = FastAPI(title="ERPLife Gateway")
