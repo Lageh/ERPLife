@@ -1,0 +1,20 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: erplife-postgres
+    environment:
+      POSTGRES_USER: erplife
+      POSTGRES_PASSWORD: erplife
+      POSTGRES_DB: erplife
+    ports:
+      - "5432:5432"
+    volumes:
+      - erplife_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U erplife -d erplife"]
+      interval: 5s
+      timeout: 5s
+      retries: 30
+
+volumes:
+  erplife_pgdata:
