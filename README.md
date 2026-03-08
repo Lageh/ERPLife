@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-# ERPLife
-=======
 # ERPLife
 
 Monorepo do ERP Pessoal (PF/PJ/Família).
@@ -13,4 +10,3 @@ Monorepo do ERP Pessoal (PF/PJ/Família).
 - services/finance-service
 - gateway
 - frontend/apps/web
->>>>>>> master
