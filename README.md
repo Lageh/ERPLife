@@ -10,3 +10,4 @@ Monorepo do ERP Pessoal (PF/PJ/Família).
 - services/finance-service
 - gateway
 - frontend/apps/web
+Lot of fun

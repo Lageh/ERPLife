@@ -4,7 +4,6 @@ from sqlalchemy.orm import Mapped, mapped_column
 
 from app.db import Base
 
-
 class Transaction(Base):
     __tablename__ = "transactions"
     __table_args__ = {"schema": "finance"}
