@@ -33,7 +33,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV /home/lageh/dev/erplife/services/finance-service/.venv
+set -gx VIRTUAL_ENV /home/lageh/dev/ERPLife/services/finance-service/.venv
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/"bin $PATH
